@@ -97,9 +97,10 @@ function module() {
         }
     }
 }
+
 const func = module();
 
 console.log("list all element", func.listAllEle());
 console.log("new lenth by adding new element", func.addItem());
-console.log("list all elememt after adding new ele", func.listAllEle());
+
 console.log("Remove the last element", func.removeItem());
